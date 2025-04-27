@@ -131,3 +131,40 @@ body {
     position: relative;
     overflow: hidden;
 }
+
+@media (max-width: 425px){
+    .container{
+        background-color: #1E1E1E;
+        height: 340px;
+        width: 400px;
+        border-radius: 10px;
+        padding: 20px;
+        transition: 0.2s;
+    }
+
+    #qr-header h1{
+        font-size: 2.1rem;
+    }
+
+    #qr-header p{
+        font-size: 1rem;
+    }
+
+    #qr-form input, #qr-form button {
+        height: 55px;
+        font-size: 1.2rem;
+    }
+
+    #qr-form button{
+        font-size: 1.4;
+    }
+
+    .container.active{
+        height: 550px;
+    }
+
+    .container{
+        height: 280px;
+        width: 350px;
+    }
+}
